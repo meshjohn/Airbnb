@@ -80,6 +80,7 @@ async function ShowItems({
     bathroom?: string;
   };
 }) {
+  noStore()
   const { getUser } = getKindeServerSession();
   const user = await getUser();
   const data = await getData({ searchParams: searchParams, userId: user?.id });
