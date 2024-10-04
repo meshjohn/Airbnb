@@ -30,7 +30,7 @@ export async function UserNav() {
           <img
             src={
               user?.picture ??
-              "https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg"
+              "/default-avatar-icon-of-social-media-user-vector.jpg"
             }
             alt="image of the user"
             className="rounded-full h-8 w-8 hidden lg:block"
